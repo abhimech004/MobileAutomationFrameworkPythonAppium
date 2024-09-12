@@ -5,6 +5,7 @@ import pytest
 from allure_commons.types import AttachmentType
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
+from appium.webdriver.appium_service import AppiumService
 
 
 #test case failure status
@@ -33,6 +34,9 @@ def pytest_runtest_makereport(item, call):
 
 @pytest.fixture(scope="function")
 def appium_driver(request):
+    global appium_service
+    appium_service = AppiumService()
+    appium_service.start()
     desired_caps = {
         "deviceName": "Android",
         "platformName": "Android",
@@ -47,6 +51,7 @@ def appium_driver(request):
     driver.implicitly_wait(10)
     yield driver
     driver.quit()
+    appium_service.stop()
 
 
 #capturing screenshot in case of failure
