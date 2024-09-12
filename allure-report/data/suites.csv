@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9536","test_login[vl-standard_user-secret_sauce-PRODUCTS-None]","","Wed Sep 11 23:04:21 IST 2024","passed","Wed Sep 11 23:04:31 IST 2024","Test_LoginTest","test_login_test","",""
+"","94837","test_add_to_cart[vl-standard_user-secret_sauce-PRODUCTS-None-Sauce Labs Onesie-abhishek-abhishek-560067-THANK YOU FOR YOU ORDER]","","Wed Sep 11 23:02:07 IST 2024","passed","Wed Sep 11 23:03:41 IST 2024","Test_AddToCart","test_add_to_cart_test","",""
+"","4525","test_login[invl-invalidusername-secret_sauce-None-Username and password do not match any user in this service.]","","Wed Sep 11 23:03:59 IST 2024","passed","Wed Sep 11 23:04:04 IST 2024","Test_LoginTest","test_login_test","",""
+"","3886","test_login[invl-invalidusername-invalidpassword-None-Username and password do not match any user in this service.]","","Wed Sep 11 23:04:11 IST 2024","passed","Wed Sep 11 23:04:14 IST 2024","Test_LoginTest","test_login_test","",""
+"","3861","test_login[invl-standard_user-invalidpassword-None-Username and password do not match any user in this service.]","","Wed Sep 11 23:03:48 IST 2024","passed","Wed Sep 11 23:03:52 IST 2024","Test_LoginTest","test_login_test","",""
