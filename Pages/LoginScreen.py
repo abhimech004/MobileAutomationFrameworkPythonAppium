@@ -39,4 +39,4 @@ class LoginScreen(BasePage):
         actual_text = self.getText("productstext_XPATH")
         expected_text = prodtitle
         assert expected_text == actual_text, " Titles are not matching"
-        log.logger.error("Login is successful and the Product Screen title appears-: " + str(actual_text))
+        log.logger.info("Login is successful and the Product Screen title appears-: " + str(actual_text))

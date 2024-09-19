@@ -27,7 +27,7 @@ class CheckoutScreen(BasePage):
         actual_text = self.getText("thanktext_XPATH")
         expected_text = confirmText
         assert expected_text == actual_text, " Titles are not matching"
-        log.logger.error("Order is completed-: " + str(actual_text))
+        log.logger.info("Order is completed-: " + str(actual_text))
 
 
 

@@ -34,3 +34,220 @@
 2024-09-19 15:19:30,746 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
 2024-09-19 15:19:36,643 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
 2024-09-19 15:19:36,643 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:21:24,822 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:21:25,947 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:21:26,657 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:21:32,516 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:21:32,517 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:22:16,388 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 16:22:24,318 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 16:22:25,668 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 16:22:26,653 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 16:22:28,169 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 16:22:29,187 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 16:23:00,976 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 16:23:02,613 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 16:23:07,723 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 16:23:24,465 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 16:23:24,465 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 16:23:35,996 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:23:37,155 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 16:23:37,835 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:23:39,042 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:23:39,042 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:23:50,347 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 16:23:51,504 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:23:52,217 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:23:53,421 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:23:53,422 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:24:05,286 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 16:24:06,394 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 16:24:07,124 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:24:08,319 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:24:08,319 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:24:19,816 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:24:20,956 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:24:21,674 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:24:27,458 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:24:27,459 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:39:53,654 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:39:54,255 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:39:54,901 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:40:00,776 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:40:00,776 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:40:15,419 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 16:40:22,940 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 16:40:25,366 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 16:40:26,224 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 16:40:28,145 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 16:40:29,091 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 16:40:30,042 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 16:40:31,580 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 16:40:35,394 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 16:41:24,711 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 16:41:24,712 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 16:41:37,471 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:41:38,607 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 16:41:39,312 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:41:40,600 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:41:40,601 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:41:52,131 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 16:41:53,245 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:41:53,933 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:41:54,594 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:41:54,594 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:42:06,083 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 16:42:07,210 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 16:42:07,897 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:42:08,576 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 16:42:08,576 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 16:42:20,233 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:42:21,404 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:42:22,156 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:42:28,037 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:42:28,037 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:45:03,102 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:45:03,710 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:45:04,428 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:45:10,184 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:45:10,184 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:45:24,960 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 16:45:44,421 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 16:45:44,829 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 16:45:46,905 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 16:45:50,972 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 16:45:53,159 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 16:45:54,161 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 16:45:55,538 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 16:46:02,193 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 16:46:24,627 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 16:46:24,627 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 16:56:04,609 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 16:56:05,746 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 16:56:06,388 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 16:56:12,074 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 16:56:12,074 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 16:56:26,193 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 16:57:03,022 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 16:57:21,478 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 16:57:23,062 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 16:57:25,121 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 16:57:26,216 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 16:57:45,677 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 16:57:47,320 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 16:57:51,127 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 16:58:02,496 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 16:58:02,496 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 17:06:39,995 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:06:41,103 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:06:42,199 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:06:48,070 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:06:48,070 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 17:07:03,050 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 17:07:26,088 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 17:07:26,525 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 17:07:28,109 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 17:07:29,112 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 17:07:37,312 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 17:07:38,311 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 17:07:40,353 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 17:08:01,985 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 17:08:24,813 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 17:08:24,813 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 17:08:37,830 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:08:38,994 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:08:39,658 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:08:40,865 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:08:40,865 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:08:52,322 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:08:53,487 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:08:54,135 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:08:55,829 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:08:55,829 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:09:07,029 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:09:08,157 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:09:08,865 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:09:10,160 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:09:10,160 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:09:21,189 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:09:22,329 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:09:23,006 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:09:28,837 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:09:28,837 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 17:13:07,269 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:13:08,405 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:13:09,109 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:13:14,909 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:13:14,909 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 17:13:30,262 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 17:13:47,331 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 17:13:47,759 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 17:13:49,771 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 17:13:50,714 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 17:13:55,437 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 17:13:57,076 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 17:13:58,164 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 17:14:02,012 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 17:14:24,841 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 17:14:24,841 - CheckoutScreen.py:[30] - [ERROR] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 17:14:36,148 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:14:37,257 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:14:37,941 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:14:39,143 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:14:39,143 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:14:50,489 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:14:51,643 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:14:52,376 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:14:53,575 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:14:53,575 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:15:04,370 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:15:05,494 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:15:06,165 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:15:07,335 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:15:07,335 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:15:18,806 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:15:19,945 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:15:20,665 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:15:26,471 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:15:26,471 - LoginScreen.py:[42] - [ERROR] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 17:27:50,772 - conftest.py:[27] - [ERROR] - app path-: D:\Python_Selenium\AppiumMobileAutomationFramework\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2024-09-19 17:28:04,461 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:28:05,568 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:28:06,256 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:28:12,113 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:28:12,113 - LoginScreen.py:[42] - [INFO] - Login is successful and the Product Screen title appears-: PRODUCTS
+2024-09-19 17:28:27,479 - BasePage.py:[25] - [INFO] - Clicking on an Element testcarticon_XPATH
+2024-09-19 17:28:48,932 - BasePage.py:[25] - [INFO] - Clicking on an Element checkoutbtn_XPATH
+2024-09-19 17:28:49,341 - BasePage.py:[25] - [INFO] - Clicking on an Element firstname_XPATH
+2024-09-19 17:28:51,128 - BasePage.py:[49] - [INFO] - Typing in an Element firstname_XPATH entered the value as : abhishek
+2024-09-19 17:28:52,113 - BasePage.py:[25] - [INFO] - Clicking on an Element lastname_XPATH
+2024-09-19 17:28:53,736 - BasePage.py:[49] - [INFO] - Typing in an Element lastname_XPATH entered the value as : abhishek
+2024-09-19 17:28:55,354 - BasePage.py:[25] - [INFO] - Clicking on an Element zip_XPATH
+2024-09-19 17:28:56,425 - BasePage.py:[49] - [INFO] - Typing in an Element zip_XPATH entered the value as : 560067
+2024-09-19 17:29:01,982 - BasePage.py:[25] - [INFO] - Clicking on an Element continuebtn_XPATH
+2024-09-19 17:29:20,892 - BasePage.py:[61] - [INFO] - Getting text from an element thanktext_XPATH
+2024-09-19 17:29:20,892 - CheckoutScreen.py:[30] - [INFO] - Order is completed-: THANK YOU FOR YOU ORDER
+2024-09-19 17:29:21,792 - conftest.py:[27] - [ERROR] - app path-: D:\Python_Selenium\AppiumMobileAutomationFramework\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2024-09-19 17:29:32,919 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:29:34,038 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:29:34,725 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:29:35,905 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:29:35,905 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:29:36,688 - conftest.py:[27] - [ERROR] - app path-: D:\Python_Selenium\AppiumMobileAutomationFramework\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2024-09-19 17:29:47,366 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:29:49,080 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:29:49,767 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:29:50,950 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:29:50,951 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:29:51,607 - conftest.py:[27] - [ERROR] - app path-: D:\Python_Selenium\AppiumMobileAutomationFramework\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2024-09-19 17:30:02,318 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
+2024-09-19 17:30:03,406 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : invalidpassword
+2024-09-19 17:30:04,035 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:30:04,667 - BasePage.py:[61] - [INFO] - Getting text from an element errormsg_XPATH
+2024-09-19 17:30:04,667 - LoginScreen.py:[35] - [ERROR] - Login is unsuccessful and the error message is-: Username and password do not match any user in this service.
+2024-09-19 17:30:05,357 - conftest.py:[27] - [ERROR] - app path-: D:\Python_Selenium\AppiumMobileAutomationFramework\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2024-09-19 17:30:19,544 - BasePage.py:[49] - [INFO] - Typing in an Element username_ACCESSIBILITYID entered the value as : standard_user
+2024-09-19 17:30:21,783 - BasePage.py:[49] - [INFO] - Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
+2024-09-19 17:30:22,407 - BasePage.py:[25] - [INFO] - Clicking on an Element loginbtn_ACCESSIBILITYID
+2024-09-19 17:30:28,240 - BasePage.py:[61] - [INFO] - Getting text from an element productstext_XPATH
+2024-09-19 17:30:28,241 - LoginScreen.py:[42] - [INFO] - Login is successful and the Product Screen title appears-: PRODUCTS

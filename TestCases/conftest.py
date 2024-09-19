@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-
 import allure
 import pytest
 from allure_commons.types import AttachmentType
@@ -8,7 +7,6 @@ from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.appium_service import AppiumService
 
-#test case failure status
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
@@ -19,7 +17,8 @@ def pytest_runtest_makereport(item, call):
 
 @pytest.fixture(scope="function")
 def appium_driver(request):
-    delete_existing_report()
+    report_path = str(Path().absolute().parent) + "\\TestCases\\testreports.html"
+    delete_existing_report(report_path)
     global appium_service
     appium_service = AppiumService()
     appium_service.start()
@@ -40,15 +39,12 @@ def appium_driver(request):
     driver.quit()
     appium_service.stop()
 
-report_path = str(Path().absolute().parent) + "\\TestCases\\testreports.html"
-print("*****************************************",report_path)
-def delete_existing_report():
+def delete_existing_report(report_path):
     if os.path.exists(report_path):
         os.remove(report_path)
         print(f"Deleted existing report: {report_path}")
     else:
         print("No existing report found.")
-
 
 # @pytest.fixture(params=['device1', 'device2'], scope="function")
 # def appium_driver(request):
