@@ -1,5 +1,0 @@
-INFO     Pages.BasePage:BasePage.py:49 Typing in an Element username_ACCESSIBILITYID entered the value as : invalidusername
-INFO     Pages.BasePage:BasePage.py:49 Typing in an Element password_ACCESSIBILITYID entered the value as : secret_sauce
-INFO     Pages.BasePage:BasePage.py:25 Clicking on an Element loginbtn_ACCESSIBILITYID
-INFO     Pages.BasePage:BasePage.py:61 Getting text from an element errormsg_XPATH
-ERROR    Pages.BasePage:LoginScreen.py:35 Login is unsuccessful and the error message is-: Username and password do not match any user in this service.

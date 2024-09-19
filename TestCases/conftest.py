@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import allure
@@ -6,7 +7,6 @@ from allure_commons.types import AttachmentType
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.appium_service import AppiumService
-
 
 #test case failure status
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
@@ -17,26 +17,13 @@ def pytest_runtest_makereport(item, call):
     return rep
 
 
-# @pytest.fixture(scope="function")
-# def appium_driver(request):
-#     desired_caps = {
-#         'platformName': 'Android',
-#         'deviceName': 'Android',
-#         'appPackage': 'com.goibibo',
-#         'appActivity': '.common.HomeActivity',
-#         'app': str(Path().absolute().parent) + "\\app\\Goibibo.apk"
-#     }
-#     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-#     request.cls.driver = driver
-#     driver.implicitly_wait(10)
-#     yield driver
-#     driver.quit()
-
 @pytest.fixture(scope="function")
 def appium_driver(request):
+    delete_existing_report()
     global appium_service
     appium_service = AppiumService()
     appium_service.start()
+
     desired_caps = {
         "deviceName": "Android",
         "platformName": "Android",
@@ -53,8 +40,52 @@ def appium_driver(request):
     driver.quit()
     appium_service.stop()
 
+report_path = str(Path().absolute().parent) + "\\TestCases\\testreports.html"
+print("*****************************************",report_path)
+def delete_existing_report():
+    if os.path.exists(report_path):
+        os.remove(report_path)
+        print(f"Deleted existing report: {report_path}")
+    else:
+        print("No existing report found.")
 
-#capturing screenshot in case of failure
+
+# @pytest.fixture(params=['device1', 'device2'], scope="function")
+# def appium_driver(request):
+#
+#     if request.param == 'device1':
+#         desired_cap = dict(
+#             deviceName='Android',
+#             platformName='Android',
+#             udid='892722a8',
+#             appPackage='com.swaglabsmobileapp',
+#             appActivity='com.swaglabsmobileapp.SplashActivity',
+#             automationName='UiAutomator2',
+#             app=str(Path().absolute().parent) + "\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"
+#         )
+#         capabilities_options = UiAutomator2Options().load_capabilities(desired_cap)
+#         driver = webdriver.Remote('http://127.0.0.1:4723', options=capabilities_options)
+#         request.cls.driver = driver
+#
+#     if request.param == 'device2':
+#         desired_cap = dict(
+#             deviceName='Android',
+#             platformName='Android',
+#             udid='emulator-5554',
+#             appPackage='com.swaglabsmobileapp',
+#             appActivity='com.swaglabsmobileapp.SplashActivity',
+#             automationName='UiAutomator2',
+#             app=str(Path().absolute().parent) + "\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"
+#         )
+#         capabilities_options = UiAutomator2Options().load_capabilities(desired_cap)
+#         driver = webdriver.Remote('http://127.0.0.1:4724', options=capabilities_options)
+#         request.cls.driver = driver
+#
+#     driver.implicitly_wait(10)
+#     yield driver
+#     time.sleep(3)
+#     driver.quit()
+
 @pytest.fixture()
 def log_on_failure(request, appium_driver):
     yield

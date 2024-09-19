@@ -20,7 +20,6 @@ class CheckoutScreen(BasePage):
         self.click("continuebtn_XPATH")
         time.sleep(2)
         ScrollUtil.scrollToTextByAndroidUIAutomator("FINISH", self.driver)
-        time.sleep(2)
         self.validateThanksTxt(confirmText)
 
     def validateThanksTxt(self, confirmText):
